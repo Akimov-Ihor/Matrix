@@ -1,0 +1,29 @@
+.MatrixColumSumWrapper{
+    padding: 0;
+    margin: 0;
+    width: 93%;
+}
+.MatrixColumSumTable>tbody{
+    width: 100%;
+    display: flex;
+}
+
+
+
+.MatrixColumSumTbody tr>td{
+    background-color: green;
+    border: 3px solid black;
+    color: black;
+    width: 3vw;
+    height: 4vh;
+} 
+.AddColum{
+    width: 3vw;
+    height: 4vh;
+    background: url(../../../assets/icons/add.svg) no-repeat center;
+    background-size: contain;
+    opacity: 0.6;
+}
+.AddColum:hover{
+    opacity: 1;
+}

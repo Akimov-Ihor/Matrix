@@ -1,0 +1,21 @@
+.handelDelete{
+    width: 3vw;
+    height: 4vh;
+    background: url(../../../assets/icons/delete.svg) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    opacity: 0.6;
+   
+}
+.handelDelete:hover{
+    opacity: 1;
+}
+
+
+.rowSum{
+    background-color: green;
+    border: 3px solid black;
+    color: black;
+    width: 3vw;
+    height: 4vh;
+}

@@ -1,0 +1,41 @@
+.Matrix{
+    width: 55%;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.matrixTableAndSumRow{
+    display: flex;
+}
+.createMatrix{
+    margin-top: 7%;
+    width: 3vw;
+    height: 4vh;
+    background: url(../assets/icons/create.svg) no-repeat center;
+    background-size: contain;
+    opacity: 0.6;
+}
+.createMatrix:hover{
+    opacity: 1;
+}
+
+.matrixOptions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  input {
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  
