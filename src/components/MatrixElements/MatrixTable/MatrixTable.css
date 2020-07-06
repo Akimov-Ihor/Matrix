@@ -4,7 +4,11 @@
     color: black;
     width: 3vw;
     height: 4vh;
+    cursor: pointer;
 } 
 .hightlight{
     background: hotpink;
+}
+.row>span{
+    cursor: pointer;
 }

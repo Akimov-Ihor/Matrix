@@ -24,8 +24,8 @@ let Matrix = () => {
        
     }
     let [matrix, setMatrix] = useState([
-        [{ amount: 220, id: Math.random() }, { amount: 380, id: Math.random() }],
-        [{ amount: 520, id: Math.random() }, { amount: 120, id: Math.random() }]
+        [ { amount: 380, id: Math.random() }],
+        [ { amount: 120, id: Math.random() }]
     ])
 
     let random = () => Math.round((Math.random() * (999 - 0 + 1)) + 0)
